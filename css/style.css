@@ -135,7 +135,7 @@ body {
 
 
 #info {
-    height: 50vh;
+    height: auto;
     padding: 50px 0;
     background: #f5f5f7;
 }
@@ -202,7 +202,7 @@ body {
 /* ----- seccion comidas ----- */
 
 #alimentos {
-
+    height: auto;
     padding: 5rem 0 10rem 0;
 }
 
