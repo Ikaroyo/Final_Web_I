@@ -1,29 +1,15 @@
-function removeClassActive() {
-    const panels = document.getElementsByClassName('panel');
-    for (let i = 0; i < panels.length; i++) {
-        panels[i].className = 'panel';
+window.onload = loadImages;
+
+function loadImages() {
+    const path = "img/jaspe/galeria/";
+
+    const cantidad = 43;
+
+    for (var i = 1; i <= cantidad; i++) {
+        var img = document.createElement("img");
+        img.src = path + i + ".jpg";
+        img.className = "imagenes";
+        img.alt = "Imagen " + i;
+        document.getElementById("galeria").appendChild(img);
     }
-
-    const imgs = document.getElementsByClassName('img');
-    for (let i = 0; i < imgs.length; i++) {
-        imgs[i].style.display = 'none';
-    }
-
-}
-
-window.onclick = e => {
-    if (e.target.className === 'panel') {
-        removeClassActive();
-        e.target.className = 'panel active';
-
-        const img = e.target.getElementsByClassName('img')[0];
-        setTimeout(() => {
-            img.style.display = 'block';
-        }
-            , 700);
-
-    } else {
-        removeClassActive();
-    }
-
 }
