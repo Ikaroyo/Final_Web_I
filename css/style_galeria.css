@@ -71,7 +71,7 @@ body {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
     #galeria {
         -moz-column-count: 1;
         -webkit-column-count: 1;
