@@ -6,7 +6,7 @@
             rgba(240, 240, 240, 0.144),
             rgba(255, 255, 255, 0.336)
     ),
-    url("https://www.learnchile.cl/wp-content/uploads/2019/09/iStock-1044460686-1174x694.jpg");
+    url('../img/veterinario-hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
