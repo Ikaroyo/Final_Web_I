@@ -183,6 +183,7 @@
     z-index: 2;
     text-align: center;
     transition: all 0.3s ease-in-out 0.1s;
+
 }
 
 .contenido-img h3 {
@@ -206,7 +207,7 @@
     background: rgba(0, 0, 0, 0.871);
     opacity: 0;
     z-index: 1;
-
+    border-radius: 5%;
     transform: scaleY(0);
     transform-origin: 100% 100%;
     transition: all 0.3s ease-in-out;
