@@ -36,7 +36,7 @@ function ValidarForm() {
         alert("Por favor coloque su mensaje para que podamos contactarnos con usted");
         return false;
     }
-
+    alert("Gracias por contactarnos, nos comunicaremos con usted a la brevedad");
     return true;
 }
 
