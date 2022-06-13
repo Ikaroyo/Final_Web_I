@@ -43,6 +43,7 @@ body {
     filter: grayscale(0%);
 }
 
+/* distintos breakpoints para setear la cantidad de columnas de acuerdo al ancho */
 @media (max-width: 1200px) {
     #galeria {
         -moz-column-count: 4;

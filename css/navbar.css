@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .container {
     max-width: 1200px;
     width: 90%;
@@ -18,9 +22,7 @@
 .navbar .hamburger-lines {
     display: none;
 }
-body {
-    font-family: 'Poppins', sans-serif;
-}
+
 .navbar {
     box-shadow: 0px 5px 10px 0px #aaa;
     position: fixed;

@@ -11,7 +11,7 @@ function ValidarForm() {
     document.getElementById("email").style.borderColor = "#ddd";
     document.getElementById("mensaje").style.borderColor = "#ddd";
 
-
+    // validar nombre
     if (nombre === "") {
         document.getElementById("nombre").style.borderColor = "red";
         document.getElementById("nombre").focus();
@@ -20,7 +20,7 @@ function ValidarForm() {
         return false;
 
     }
-
+    // validar email
     const re = /\S+@\S+\.\S+/;
 
     if (!re.test(document.getElementById("email").value)) {
@@ -29,13 +29,14 @@ function ValidarForm() {
         alert("Por favor coloque su email para que podamos contactarnos con usted");
         return false;
     }
-
+    //
     if (mensaje === "") {
         document.getElementById("mensaje").style.borderColor = "red";
         document.getElementById("mensaje").focus();
         alert("Por favor coloque su mensaje para que podamos contactarnos con usted");
         return false;
     }
+    // si todo esta bien, enviar el formulario
     alert("Gracias por contactarnos, nos comunicaremos con usted a la brevedad");
     return true;
 }
